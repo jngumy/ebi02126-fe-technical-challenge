@@ -12,7 +12,7 @@ import Image from 'next/image';
 import Navbar from '../components/NavBar';
 
 // Types
-import { Gene, FilterType, Option } from '../types/types';
+import { Gene, Option } from '../types/types';
 
 // Hooks
 import useHeatMapData from '@/hooks/useHeatMapData';

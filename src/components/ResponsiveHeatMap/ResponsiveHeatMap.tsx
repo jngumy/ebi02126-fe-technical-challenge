@@ -4,7 +4,6 @@ import {
   HeatMapSerie,
   HeatMapDatum,
 } from '@nivo/heatmap';
-import { useEffect } from 'react';
 
 interface ResponsiveHeatMapProps {
   data: HeatMapSerie<HeatMapDatum, object>[];
@@ -13,10 +12,6 @@ interface ResponsiveHeatMapProps {
 const ResponsiveHeatMap = ({ data }: ResponsiveHeatMapProps) => {
   const cellWidthPixels = 60;
   const cellHeightPixels = 20;
-
-  useEffect(() => {
-    console.log('render');
-  }, [data]);
 
   return (
     <div

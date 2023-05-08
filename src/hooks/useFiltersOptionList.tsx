@@ -1,6 +1,8 @@
+import { useState, useEffect, useCallback } from 'react';
+
+// Types
 import { Gene, Option } from '../types/types';
 import { CSSObjectWithLabel } from 'react-select';
-import { useState, useEffect, useCallback } from 'react';
 
 const API_DROPDOWN_DATA_URL = 'api/dropdownData';
 
